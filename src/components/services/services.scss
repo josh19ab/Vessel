@@ -1,0 +1,232 @@
+@import "../../app.scss";
+
+.Services {
+  // background-image: linear-gradient(
+  //     200deg,
+  //     rgba(213, 213, 213, 0.01) 0%,
+  //     rgba(213, 213, 213, 0.01) 14.286%,
+  //     rgba(140, 140, 140, 0.01) 14.286%,
+  //     rgba(140, 140, 140, 0.01) 28.572%,
+  //     rgba(52, 52, 52, 0.01) 28.572%,
+  //     rgba(52, 52, 52, 0.01) 42.858%,
+  //     rgba(38, 38, 38, 0.01) 42.858%,
+  //     rgba(38, 38, 38, 0.01) 57.144%,
+  //     rgba(159, 159, 159, 0.01) 57.144%,
+  //     rgba(159, 159, 159, 0.01) 71.42999999999999%,
+  //     rgba(71, 71, 71, 0.01) 71.43%,
+  //     rgba(71, 71, 71, 0.01) 85.71600000000001%,
+  //     rgba(88, 88, 88, 0.01) 85.716%,
+  //     rgba(88, 88, 88, 0.01) 100.002%
+  //   ),
+  //   linear-gradient(
+  //     337deg,
+  //     rgba(25, 25, 25, 0.01) 0%,
+  //     rgba(25, 25, 25, 0.01) 12.5%,
+  //     rgba(150, 150, 150, 0.01) 12.5%,
+  //     rgba(150, 150, 150, 0.01) 25%,
+  //     rgba(84, 84, 84, 0.01) 25%,
+  //     rgba(84, 84, 84, 0.01) 37.5%,
+  //     rgba(85, 85, 85, 0.01) 37.5%,
+  //     rgba(85, 85, 85, 0.01) 50%,
+  //     rgba(188, 188, 188, 0.01) 50%,
+  //     rgba(188, 188, 188, 0.01) 62.5%,
+  //     rgba(80, 80, 80, 0.01) 62.5%,
+  //     rgba(80, 80, 80, 0.01) 75%,
+  //     rgba(73, 73, 73, 0.01) 75%,
+  //     rgba(73, 73, 73, 0.01) 87.5%,
+  //     rgba(219, 219, 219, 0.01) 87.5%,
+  //     rgba(219, 219, 219, 0.01) 100%
+  //   ),
+  //   linear-gradient(
+  //     203deg,
+  //     rgba(233, 233, 233, 0.01) 0%,
+  //     rgba(233, 233, 233, 0.01) 25%,
+  //     rgba(114, 114, 114, 0.01) 25%,
+  //     rgba(114, 114, 114, 0.01) 50%,
+  //     rgba(164, 164, 164, 0.01) 50%,
+  //     rgba(164, 164, 164, 0.01) 75%,
+  //     rgba(228, 228, 228, 0.01) 75%,
+  //     rgba(228, 228, 228, 0.01) 100%
+  //   ),
+  //   linear-gradient(
+  //     317deg,
+  //     rgba(139, 139, 139, 0.02) 0%,
+  //     rgba(139, 139, 139, 0.02) 16.667%,
+  //     rgba(44, 44, 44, 0.02) 16.667%,
+  //     rgba(44, 44, 44, 0.02) 33.334%,
+  //     rgba(166, 166, 166, 0.02) 33.334%,
+  //     rgba(166, 166, 166, 0.02) 50.001000000000005%,
+  //     rgba(2, 2, 2, 0.02) 50.001%,
+  //     rgba(2, 2, 2, 0.02) 66.668%,
+  //     rgba(23, 23, 23, 0.02) 66.668%,
+  //     rgba(23, 23, 23, 0.02) 83.33500000000001%,
+  //     rgba(21, 21, 21, 0.02) 83.335%,
+  //     rgba(21, 21, 21, 0.02) 100.002%
+  //   ),
+  //   linear-gradient(
+  //     328deg,
+  //     rgba(3, 3, 3, 0.03) 0%,
+  //     rgba(3, 3, 3, 0.03) 12.5%,
+  //     rgba(116, 116, 116, 0.03) 12.5%,
+  //     rgba(116, 116, 116, 0.03) 25%,
+  //     rgba(214, 214, 214, 0.03) 25%,
+  //     rgba(214, 214, 214, 0.03) 37.5%,
+  //     rgba(217, 217, 217, 0.03) 37.5%,
+  //     rgba(217, 217, 217, 0.03) 50%,
+  //     rgba(68, 68, 68, 0.03) 50%,
+  //     rgba(68, 68, 68, 0.03) 62.5%,
+  //     rgba(118, 118, 118, 0.03) 62.5%,
+  //     rgba(118, 118, 118, 0.03) 75%,
+  //     rgba(200, 200, 200, 0.03) 75%,
+  //     rgba(200, 200, 200, 0.03) 87.5%,
+  //     rgba(198, 198, 198, 0.03) 87.5%,
+  //     rgba(198, 198, 198, 0.03) 100%
+  //   ),
+  //   linear-gradient(
+  //     97deg,
+  //     rgba(195, 195, 195, 0.03) 0%,
+  //     rgba(195, 195, 195, 0.03) 16.667%,
+  //     rgba(177, 177, 177, 0.03) 16.667%,
+  //     rgba(177, 177, 177, 0.03) 33.334%,
+  //     rgba(170, 170, 170, 0.03) 33.334%,
+  //     rgba(170, 170, 170, 0.03) 50.001000000000005%,
+  //     rgba(158, 158, 158, 0.03) 50.001%,
+  //     rgba(158, 158, 158, 0.03) 66.668%,
+  //     rgba(121, 121, 121, 0.03) 66.668%,
+  //     rgba(121, 121, 121, 0.03) 83.33500000000001%,
+  //     rgba(146, 146, 146, 0.03) 83.335%,
+  //     rgba(146, 146, 146, 0.03) 100.002%
+  //   ),
+  //   linear-gradient(
+  //     268deg,
+  //     rgba(103, 103, 103, 0.03) 0%,
+  //     rgba(103, 103, 103, 0.03) 25%,
+  //     rgba(112, 112, 112, 0.03) 25%,
+  //     rgba(112, 112, 112, 0.03) 50%,
+  //     rgba(4, 4, 4, 0.03) 50%,
+  //     rgba(4, 4, 4, 0.03) 75%,
+  //     rgba(227, 227, 227, 0.03) 75%,
+  //     rgba(227, 227, 227, 0.03) 100%
+  //   ),
+  //   linear-gradient(90deg, hsl(98, 0%, 0%), hsl(98, 0%, 0%));
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch; /* Change to flex-start */
+  align-items: center;
+  padding: 1rem;
+  max-width: 100rem;
+  margin-top: -50px;
+  overflow-y: auto;
+
+  
+
+  .textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    max-width: 100%; /* Change to 100% */
+    text-align: center;
+    padding-top: 3rem; /* Add padding-top to create space */
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    color: orange;
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 3rem;
+    color: whitesmoke;
+    margin: 0;
+  }
+
+  @media (min-width: 640px) {
+    .listContainer {
+      flex-direction: row;
+    }
+    padding: 1.5rem;
+    max-width: 100%;
+
+  }
+
+  @media (min-width: 1024px) {
+    .services {
+      max-width: 80rem;
+    }
+    padding: 2rem;
+  }
+
+  .listContainer {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    // margin: 0 auto;
+    margin-top: 3rem;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 1rem;
+    text-align: center;
+    max-width: 90%;
+    padding: 0%;
+    // margin-bottom: 3rem;
+
+    @media mobile {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 3rem;
+    }
+
+    @media (min-width: 1024px) {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      max-width: 85rem;
+    }
+
+    > div {
+      padding: 50px;
+      border: 0.5px solid gray;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      min-height: 100%;
+
+      @include mobile {
+        border: none;
+      }
+
+      .symbols {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 9999px;
+        width: 5rem;
+        height: 5rem;
+        background-color: #f3f4f6;
+
+        .symbolStyle {
+          color: #374151;
+        }
+      }
+
+      .titles {
+        margin-top: 2rem;
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+        font-weight: 600;
+        color: orange;
+      }
+
+      .discription {
+        margin-top: 1rem;
+        font-size: 0.9rem;
+        line-height: 1.25rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+      }
+    }
+  }
+}
