@@ -2,7 +2,6 @@ import { useRef, useEffect } from "react";
 import videoBg from "../../assets/hero.mp4";
 import "./Home.scss";
 import { motion } from "framer-motion";
-import { stackClasses } from "@mui/material";
 
 const Home = () => {
   const videoRef = useRef(null);
