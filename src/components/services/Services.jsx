@@ -30,7 +30,11 @@ const variants = {
 const Services = () => {
   const ref = useRef();
 
-  const isInView = useInView(ref, { margin: "-100px" });
+  // const isInView = useInView(ref, { margin: "-100px" });
+
+  const isDesktop = () => {
+    return window.innerWidth > 768; // Adjust the threshold as needed
+  };
 
   return (
     <motion.div
@@ -48,7 +52,11 @@ const Services = () => {
       </motion.div>
 
       <motion.div className="listContainer" variants={variants}>
-        <motion.div whileHover={{ background: "lightgray", color: "black" }}>
+        <motion.div
+          whileHover={
+            isDesktop() ? { background: "lightgray", color: "black" } : {}
+          }
+        >
           <div className="symbols">
             <Film className="symbolStyle" />
           </div>
@@ -61,7 +69,11 @@ const Services = () => {
           </p>
         </motion.div>
 
-        <motion.div whileHover={{ background: "lightgray", color: "black" }}>
+        <motion.div
+          whileHover={
+            isDesktop() ? { background: "lightgray", color: "black" } : {}
+          }
+        >
           <div className="symbols">
             <Blend className="symbolStyle" />
           </div>
@@ -75,7 +87,11 @@ const Services = () => {
           </p>
         </motion.div>
 
-        <motion.div whileHover={{ background: "lightgray", color: "black" }}>
+        <motion.div
+          whileHover={
+            isDesktop() ? { background: "lightgray", color: "black" } : {}
+          }
+        >
           <div className="symbols">
             <Camera className="symbolStyle" />
           </div>
@@ -88,7 +104,11 @@ const Services = () => {
           </p>
         </motion.div>
 
-        <motion.div whileHover={{ background: "lightgray", color: "black" }}>
+        <motion.div
+          whileHover={
+            isDesktop() ? { background: "lightgray", color: "black" } : {}
+          }
+        >
           <div className="symbols">
             <SquarePen className="symbolStyle" />
           </div>
@@ -102,7 +122,11 @@ const Services = () => {
           </p>
         </motion.div>
 
-        <motion.div whileHover={{ background: "lightgray", color: "black" }}>
+        <motion.div
+          whileHover={
+            isDesktop() ? { background: "lightgray", color: "black" } : {}
+          }
+        >
           <div className="symbols">
             <Printer className="symbolStyle" />
           </div>
@@ -112,7 +136,11 @@ const Services = () => {
           </p>
         </motion.div>
 
-        <motion.div whileHover={{ background: "lightgray", color: "black" }}>
+        <motion.div
+          whileHover={
+            isDesktop() ? { background: "lightgray", color: "black" } : {}
+          }
+        >
           <div className="symbols">
             <RadioTower className="symbolStyle" />
           </div>

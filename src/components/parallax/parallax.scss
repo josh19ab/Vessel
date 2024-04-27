@@ -13,6 +13,7 @@
     font-size: 100px;
 
     @include mobile {
+      color: white;
       font-size: 72px;
       text-align: center;
     }
@@ -28,6 +29,7 @@
     z-index: 3;
 
     @include mobile {
+      display: none;
       background-size: contain;
       background-repeat: no-repeat;
     }
@@ -42,6 +44,7 @@
     @include mobile {
       background-size: contain;
       background-repeat: no-repeat;
+      opacity: 60%;
     }
   }
   .stars {
