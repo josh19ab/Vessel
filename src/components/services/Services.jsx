@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import "./services.scss";
-import { motion, useInView } from "framer-motion";
+import { motion } from "framer-motion";
 import {
   Film,
   Camera,
@@ -33,7 +33,7 @@ const Services = () => {
   // const isInView = useInView(ref, { margin: "-100px" });
 
   const isDesktop = () => {
-    return window.innerWidth > 768; // Adjust the threshold as needed
+    return window.innerWidth > 738; // Adjust the threshold as needed
   };
 
   return (
